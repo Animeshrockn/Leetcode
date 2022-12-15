@@ -33,5 +33,3 @@ k = sol.lengthOfLongestSubstring(s)
 
 
 print(f'Output : {k}')
-
-
