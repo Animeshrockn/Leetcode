@@ -17,7 +17,7 @@ class Solution:
             if s[i] == '(' or s[i] == '[' or s[i] == '{':
                 a.append(s[i])
             
-            elif s[i] == ')' and len(a)>0 and  a[-1] == '('  :
+            elif s[i] == ')' and len(a)>0 and  a[-1] == '(' :
                 a.pop()
             elif s[i] == ']' and len(a)>0 and a[-1] == '[' :
                 a.pop()
