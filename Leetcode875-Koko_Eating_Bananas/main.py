@@ -33,12 +33,15 @@ class Solution:
             else:
                 l = mid + 1
         return res
- 
 
-piles = [3,6,7,11] 
+
+piles = [3,6,7,11]
 h = 8
 
 sol = Solution()
 result = sol.minEatingSpeed(piles,h)
 
 print(f'Output is : {result}')
+
+
+
